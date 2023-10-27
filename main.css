@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+.container {
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+.topbar {
+  width: 100%;
+  height: 60px;
+  background: #2e2e2e;
+}
+.topbar nav {
+  float: left;
+}
+.topbar nav li {
+  list-style: none;
+  margin-top: 20px;
+}
+.topbar nav li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.topbar nav li a:hover {
+  color: #db4a39;
+}
+.topbar .menu {
+  float: right;
+}
+.topbar .menu nav {
+  float: right;
+}
+.topbar .menu nav ul {
+  list-style: none;
+}
+.topbar .menu nav ul li {
+  float: left;
+  margin-right: 10px;
+}
+.topbar .menu nav ul li a {
+  color: #fff;
+  margin-right: 100px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.topbar .menu nav ul li a:hover {
+  color: #db4a39;
+}
+.banner img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+.banner {
+  position: relative;
+}
+
+.textbanner {
+  position: absolute;
+  top: 40%;
+}
+
+.textbanner h1 {
+  font-weight: bold;
+}
+
+.textbanner p {
+  width: 500px;
+}
+
+.date-wrapper {
+  padding: 10px 10px;
+  position: absolute;
+  left: 50%;
+  bottom: -35px;
+  padding-top: 20px;
+  background-color: #fff;
+  transform: translateX(-50%);
+  width: 1000px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  border: 1px solid #db4a39;
+}
+
+.date, .guest {
+  border-right: 1px solid #db4a39;
+  padding-right: 200px;
+  margin-bottom: 5px;
+  line-height: 35px;
+}
+
+.destination {
+  line-height: 35px;
+  margin-bottom: 5px;
+}
+
+.category{
+  margin-top: 80px;
+}
+
+.header .cate, .service{
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.offer {
+  display: flex;
+}
+
+.square {
+  border: 1px solid #2e2e2e;
+  border-radius: 20px;
+  margin-right: 50px;
+  margin-top: 80px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.square p {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.square .des{
+  width: 300px;
+  text-align: center;
+}
+
+.rectangle .trip {
+  text-align: left;
+}
+
+.rectangle {
+  border: 1px solid #2e2e2e;
+  border-radius: 20px;
+  margin-right: 80px;
+  margin-top: 80px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.rectangle img {
+  width: 95%;
+  height: 200px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.rectangle .trip {
+  width: 400px;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.offer-one {
+  display: flex;
+}
